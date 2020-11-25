@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   root "home#index"
 
   route "home#test_james"
+
+  get "home#test"
   # root "customers#index"
   resources :customers
 end
